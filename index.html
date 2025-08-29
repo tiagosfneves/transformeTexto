@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tag de propriedade do criador da extensão -->
+    <meta name="author" content="Tiago Neves">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+        
+    <title>Transforme Textos</title>
+</head>
+
+<body>
+    <div class="container-pai">
+        <h1 class="titulo">
+            <a href="https://tiagoneves.com.br/" target="_blank"><strong>tT</strong></a> - Transforme Textos
+        </h1>
+
+        <input type="text" name="text" id="input-text" class="input-text" maxlength="500"
+            placeholder="Digite o texto aqui" required style="width: 160px;">
+
+        <div class="container-button">
+            <button type="button" class="btn" id="btnMaiuscula">MAIÚSCULA</button>
+            <button type="button" class="btn" id="btnMinuscula">minúscula</button>
+        </div>
+
+        <textarea name="result" id="result" class="result" rows="5" placeholder="Resultado"></textarea>
+        <p>Para mais opções, visite: </p>
+        <a href="https://tiagoneves.com.br/" target="_blank">tiagoneves.com.br</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
